@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="public/assets/css/login_style.css">
 </head>
 <body>
     <main>
         <section>
-            <form action="">
+            <form action="public/app/classes/usuario.php" method="post">
                 <hr>
-                <h2>Acessar Usuario</h2>
+                <h2>Cadastrar Usuario</h2>
                 <hr>
+                <input type="nome" name="nome" placeholder="Digite o seu senha" required>
                 <input type="email" name="email"  placeholder="Digite o seu email" required>
                 <input type="password" name="senha" placeholder="Digite a sua senha" required>
-                <input type="password" name="confirmar_senha" placeholder="Confirme a sua senha" required>
                 <input type="submit" id="button" value="Entrar">
-                <p>Ainda não tem um login? 
-                    <a href="cadastro.html">Clique aqui!</a>
+                <p>Já tem um login? 
+                    <a href="login.html">Clique aqui!</a>
                 </p>
             </form>
         </section>

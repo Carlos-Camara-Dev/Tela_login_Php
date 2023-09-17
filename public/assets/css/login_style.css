@@ -11,6 +11,7 @@ form {
 }
 form input {
   border: 0.1rem solid #a2a2a2;
+  border-radius: 1.1rem;
   font-size: 0.8rem;
   margin: 0.55rem;
   padding: 1rem 1.5rem;
@@ -18,10 +19,9 @@ form input {
 }
 
 h2 {
-  border: 0.1rem solid #a2a2a2;
   font-size: 2rem;
-  margin-bottom: 0.5rem;
-  padding: 0.5rem 0rem;
+  margin: 0;
+  padding: 0rem 0rem;
 }
 main {
   align-items: center;
@@ -30,8 +30,21 @@ main {
   justify-content: center;
   width: 100vw;
 }
+p {
+  /* font-weight: bolder; */
+  margin: 0;
+}
+p a {
+  color: #dc0202;
+  text-decoration: none;
+}
 
 section {
   height: 23rem;
   width: 17rem;
+}
+#button {
+  background: #000000;
+  color: #ffffff;
+  padding: 0.8rem 5.3rem;
 }
